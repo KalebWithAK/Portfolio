@@ -6,6 +6,103 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <!-- navigation bar -->
+        <div id="navbar">
+            <h1 id="logo">K</h1>
+            <ul id="nav-links">
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#challenges">Challenges</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- About -->
+        <div id="about">
+            <img id="about-pic" src="../assets/face-pic.jpeg">
+
+            <h2>Kaleb Dean</h2>
+
+            <p>Mission Statement... lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem</p>
+            
+            <h2>Technologies</h2>
+            <div id="technologies">
+                <div class="tech-card" id="front-end">
+                    <h2>Front End</h2>
+                    <img id="front-end-img" src="../assets/front-end.jpeg">
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript & jquery</li>
+                        <li>vue js</li>
+                    </ul>
+                </div>
+
+                <div class="tech-card" id="back-end">
+                    <h2>Back End</h2>
+                    <img id="back-end-img" src="../assets/back-end.jpeg">
+                    <ul>
+                        <li>python 3</li>
+                    </ul>
+                </div>
+
+                <div class="tech-card" id="database">
+                    <h2>Front End</h2>
+                    <img id="database-img" src="../assets/database.jpeg">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects">
+            <h2>Projects</h2>
+
+            <div id="project-cards">
+                <div class="project-card" id="bug-tracker-card">
+                    <h3>Bug Tracker</h3>
+                    <img id="bug-tracker-img" src="../assets/bug-tracker.gif">
+                    <button class="view-btn" id="bug-tracker-view-btn">View Project</button>
+                    <button class="code-btn" id="bug-tracker-code-btn">Source Code</button>
+                </div>
+
+                <div class="project-card" id="budgeter-card">
+                    <h3>Budgeter</h3>
+                    <img id="budegeter-img" src="../assets/budgeter.gif">
+                    <button class="view-btn" id="budgeter-view-btn">View Project</button>
+                    <button class="code-btn" id="budgeter-code-btn">Source Code</button>
+                </div>
+
+                <div class="project-card" id="watch-list-card">
+                    <h3>Watch List</h3>
+                    <img id="bug-tracker-img" src="../assets/watch-list.gif">
+                    <button class="view-btn" id="watch-list-view-btn">View Project</button>
+                    <button class="code-btn" id="watch-list-code-btn">Source Code</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Challenges -->
+        <div id="challenges">
+            <h2>Algorithm Challenges</h2>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+            <h2>Contact</h2>
+
+            <div id="contact-cards">
+                <div class="contact-card">
+                    <p>Phone</p>
+                </div>
+
+                <div class="contact-card">
+                    <p>Email</p>
+                </div>
+            </div>
+        </div>
 
         <script src="../src/portfolio.js"></script>
     </body>
